@@ -1,0 +1,73 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+}
+
+/* Center everything */
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* Card */
+.card {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+/* Upload box */
+.upload-box {
+    display: block;
+    padding: 30px;
+    border: 2px dashed #38bdf8;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    background: rgba(56, 189, 248, 0.1);
+}
+
+/* Hide actual input */
+.upload-box input {
+    display: none;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #06b6d4, #3b82f6);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+}

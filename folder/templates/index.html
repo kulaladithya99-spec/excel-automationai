@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Excel Automation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🚀 AI Excel Automation</h1>
+    <p class="subtitle">Upload your Excel file and get clean data instantly</p>
+
+    <div class="card">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            
+            <label for="file-upload" class="upload-box">
+                📂 Click to upload Excel file
+                <input id="file-upload" type="file" name="file" required>
+            </label>
+
+            <button type="submit">⚡ Process File</button>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
